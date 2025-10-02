@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:background="#2C2C2C"
+    android:gravity="center_vertical">
+
+    <!-- Task text -->
+    <TextView
+        android:id="@+id/txtTask"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:text="Sample Task"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <!-- Edit button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit"
+        android:layout_marginRight="5dp"
+        style="@style/CalcButtonStyleOperator"/>
+
+    <!-- Delete button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:layout_marginLeft="5dp"
+        style="@style/CalcButtonStyleEqual"/>
+
+</LinearLayout>

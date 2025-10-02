@@ -21,8 +21,8 @@ UzToDo List is a simple Android To-Do List app that helps users manage their dai
 - CardView (for UI)  
 
 ## Screenshots
-![Main Screen](screenshots/todo_main.png)  
-![Edit Task](screenshots/todo_edit.png)  
+![Main Screen](screenshots/screen2_1.jpg)  
+![Edit Task](screenshots/screen2_2.jpg)  
 
 ## How to Run
 1. Clone the repo:

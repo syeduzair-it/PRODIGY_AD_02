@@ -27,5 +27,5 @@ UzToDo List is a simple Android To-Do List app that helps users manage their dai
 ## How to Run
 1. Clone the repo:
    ```bash
-   git clone https://github.com/<your_username>/PRODIGY_AD_02.git
+   git clone https://github.com/syeduzair-it/PRODIGY_AD_02.git
    cd PRODIGY_AD_02
